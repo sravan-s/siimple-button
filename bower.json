@@ -1,0 +1,15 @@
+{
+  "name": "siimple-button",
+  "description": "A button element based on siimple-polymer",
+  "main": "siimple-button.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "siimple-polymer": "https://github.com/sravan-s/siimple-polymer.git"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}

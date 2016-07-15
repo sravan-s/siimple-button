@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../siimple-polymer/siimple-polymer.html">
+<!--
+`siimple-button`
+A button element based on siimple-polymer
+
+@demo demo/index.html 
+-->
+
+<dom-module id="siimple-button">
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+      }
+    </style>
+    <div class$="btn {{type}}">
+      <content></content>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'siimple-button',
+
+      properties: {
+        type: {
+          type: String
+        }
+      },
+
+    });
+  </script>
+</dom-module>
